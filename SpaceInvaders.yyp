@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0546164e-3951-4e1d-8511-4a2df36fb80f",
+            "Value": {
+                "id": "c4d7e1b4-10cc-498d-8155-2b329fdc9471",
+                "resourcePath": "sprites\\sprite3\\sprite3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "1c160242-4bef-48eb-a884-3c393e54b522",
             "Value": {
                 "id": "c865f073-7288-4d3f-a6e0-23a733701a5e",
@@ -79,6 +87,14 @@
             }
         },
         {
+            "Key": "58046f7d-44c7-46a1-9eb7-a8f36fc81b19",
+            "Value": {
+                "id": "1de25a75-f38b-4508-a513-133c1fb26f71",
+                "resourcePath": "objects\\Obj_AlienGunship\\Obj_AlienGunship.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "70effa60-fe59-469f-93fe-4dfb159e37c1",
             "Value": {
                 "id": "515ab71c-773a-4436-bbf6-5d2e6c7e720c",
@@ -111,6 +127,14 @@
             }
         },
         {
+            "Key": "8f2c96f4-4fda-44a4-a578-9c7778a1abb6",
+            "Value": {
+                "id": "343a0741-4cb2-4b1d-9eac-8188c7ece337",
+                "resourcePath": "sprites\\Bullet\\Bullet.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9022d169-488c-485a-98b8-09504780c0c3",
             "Value": {
                 "id": "553d5c80-5553-4c28-bb5b-1fe1709b7626",
@@ -119,11 +143,35 @@
             }
         },
         {
+            "Key": "a1f0c398-fb5d-4e5c-9435-1c1c3da61f45",
+            "Value": {
+                "id": "007d2397-a264-4a19-8a2f-4a402169e527",
+                "resourcePath": "objects\\AlienSpawnController\\AlienSpawnController.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "bf87f13b-df2a-44b1-9a01-36a4585ff95c",
+            "Value": {
+                "id": "47dab861-6518-469e-a3d6-66d4d8154c4b",
+                "resourcePath": "sprites\\sprite0\\sprite0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c18a1f89-4783-443a-920a-3c6b3a6050f6",
             "Value": {
                 "id": "f14b86b5-412f-4072-a91a-d863f8c3faef",
                 "resourcePath": "views\\c18a1f89-4783-443a-920a-3c6b3a6050f6.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c6685d2f-d930-46e4-b830-1ab568170060",
+            "Value": {
+                "id": "d5a7c316-94a9-436e-9bd7-87c14500b4bf",
+                "resourcePath": "sprites\\sprite1\\sprite1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -151,6 +199,14 @@
             }
         },
         {
+            "Key": "d5e573d2-997c-4746-8ba8-ed0f9b127268",
+            "Value": {
+                "id": "b625b044-fd7b-42b1-9ba3-e5ff841c3145",
+                "resourcePath": "objects\\Obj_Bullet\\Obj_Bullet.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d8587d88-320f-4c76-b618-a6b3588836e9",
             "Value": {
                 "id": "0e543b24-b609-43c2-afa9-aa1b73b5b3fe",
@@ -167,11 +223,27 @@
             }
         },
         {
+            "Key": "e617055a-d944-45a0-bf8b-3855cd087577",
+            "Value": {
+                "id": "ac339c32-c88f-4770-b40f-77460192b7e0",
+                "resourcePath": "objects\\Player\\Player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "f01b1a6e-ff24-4bf7-8619-bcd4b96d5b53",
             "Value": {
                 "id": "a0dd17cf-40cd-44fa-8574-6df4d9a12842",
                 "resourcePath": "views\\f01b1a6e-ff24-4bf7-8619-bcd4b96d5b53.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f203be9d-f718-4aea-8703-3a843571acaf",
+            "Value": {
+                "id": "416e3abf-fd4c-40b5-9cb0-7652c88e3fac",
+                "resourcePath": "objects\\Alien\\Alien.yy",
+                "resourceType": "GMObject"
             }
         }
     ],
