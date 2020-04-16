@@ -8,6 +8,14 @@ if(CurrentSpawnRow <= 4+global.GameLevel)
 		{
 			NewAlien = instance_create_depth(0,0,0,Obj_AlienGunship)
 		}
+		else if(random_range(1,40+global.GameLevel) < 2 and global.GameLevel >= 3)
+		{
+			NewAlien = instance_create_depth(0,0,0,Obj_HealthPack)
+		}
+		else if(random_range(1,20) < 2+(global.GameLevel-4) and global.GameLevel >= 4)
+		{
+			NewAlien = instance_create_depth(0,0,0,Obj_AlienBlue)
+		}
 		else
 		{
 			NewAlien = instance_create_depth(0,0,0,Obj_Alien)

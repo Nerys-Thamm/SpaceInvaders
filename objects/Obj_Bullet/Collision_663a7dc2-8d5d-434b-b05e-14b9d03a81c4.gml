@@ -4,5 +4,6 @@ instance_destroy()
 with(other)
 {
 	global.AlienCount -= 1
+	global.PlayerScore += 30
 	instance_destroy()
 }

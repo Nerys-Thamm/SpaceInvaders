@@ -3,6 +3,6 @@
 instance_destroy()
 with(other)
 {
-	
+	global.PlayerScore += 10
 	instance_destroy()
 }

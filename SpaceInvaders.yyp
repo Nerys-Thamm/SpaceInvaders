@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "362e1196-ece4-4e53-b627-ee3c1dd16f7e",
+            "Value": {
+                "id": "5b367428-b061-4970-afd0-c5fe864fade0",
+                "resourcePath": "sprites\\Spr_AlienBlue\\Spr_AlienBlue.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4c0c7929-2209-4bff-a43b-ba17a81831af",
             "Value": {
                 "id": "4d5c6bba-86ea-49fc-b049-124c43b59f3a",
@@ -123,6 +131,14 @@
             "Value": {
                 "id": "1de25a75-f38b-4508-a513-133c1fb26f71",
                 "resourcePath": "objects\\Obj_AlienGunship\\Obj_AlienGunship.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "5cd31554-51e7-4664-8019-743e4c8d1427",
+            "Value": {
+                "id": "64912109-a081-4197-bb6b-7279e770ff6a",
+                "resourcePath": "objects\\Obj_HealthPack\\Obj_HealthPack.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -199,11 +215,27 @@
             }
         },
         {
+            "Key": "a85ecdcf-60d4-4315-96ce-ed4fb94d015c",
+            "Value": {
+                "id": "b3dc7edc-f8aa-4bc9-baa9-b45e30a41c45",
+                "resourcePath": "sprites\\Spr_HealthPack\\Spr_HealthPack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
             "Value": {
                 "id": "fb2e181e-041a-4e3d-847c-e893c9179db5",
                 "resourcePath": "options\\linux\\options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "b9afecb0-f3eb-42b5-adef-91590fcbfb82",
+            "Value": {
+                "id": "a934477e-e45a-4c3c-b24f-055bc5addfeb",
+                "resourcePath": "objects\\Obj_AlienBlue\\Obj_AlienBlue.yy",
+                "resourceType": "GMObject"
             }
         },
         {
