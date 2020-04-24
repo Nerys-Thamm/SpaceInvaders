@@ -3,6 +3,7 @@
 
 if(WeaponCooldown > 500000)
 {
+	audio_play_sound(Lazer_shoot, 1, 0)
 sprite_index = Spr_PlayerCharge
 NewLeftBullet = instance_create_depth(global.PlayerX,global.PlayerY,0,Obj_Bullet)
 NewMiddleBullet = instance_create_depth(global.PlayerX,global.PlayerY,0,Obj_Bullet)

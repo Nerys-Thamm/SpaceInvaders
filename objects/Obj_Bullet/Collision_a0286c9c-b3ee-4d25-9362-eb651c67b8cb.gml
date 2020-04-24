@@ -3,6 +3,7 @@
 instance_destroy()
 with(other)
 {
+	audio_play_sound(Alien_Hit, 1, 0)
 	if(AlienHealth > 1)
 	{
 		AlienHealth -= 1

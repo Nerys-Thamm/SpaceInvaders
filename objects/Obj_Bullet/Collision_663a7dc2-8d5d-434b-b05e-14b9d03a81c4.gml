@@ -3,6 +3,7 @@
 instance_destroy()
 with(other)
 {
+	audio_play_sound(Alien_Hit, 1, 0)
 	global.AlienCount -= 1
 	global.PlayerScore += 30
 	instance_destroy()

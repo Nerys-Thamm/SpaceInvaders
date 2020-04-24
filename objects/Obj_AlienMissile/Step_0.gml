@@ -18,6 +18,7 @@ else
 }
 if(!deflected)
 {
+	audio_play_sound(Missile_Deflect, 1, 0)
 	
 	direction = DeflectionAngle
 	image_angle = direction - 180

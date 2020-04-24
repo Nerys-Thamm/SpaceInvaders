@@ -3,7 +3,7 @@
 if(global.GameLevel < 8)
 {HopDelayMult = 1-(0.05*global.GameLevel)}
 else
-{HopDelayMult = 0.6}
+{HopDelayMult = 0.4}
 if(global.AlienCount < 20 && global.GameLevel >= 3)
 {
 	HopDelayMult = 0.2

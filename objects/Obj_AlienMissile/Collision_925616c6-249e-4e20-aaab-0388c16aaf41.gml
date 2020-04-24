@@ -4,8 +4,9 @@ if(deflected)
 {
 	with(other)
 	{
-		global.AlienCount -= 1
-		global.PlayerScore += 60
-		instance_destroy()
+	audio_play_sound(Explosion, 1, 0)
+	instance_create_depth(x,y,0,Obj_Explosion)
+	
 	}
+	instance_destroy()
 }
