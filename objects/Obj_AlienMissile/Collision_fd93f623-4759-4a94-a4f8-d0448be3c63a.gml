@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+//If missile hasnt been deflected, destroy missile, deal damage to player, and play explosion sound
+//and spawn explosion
 if(!deflected)
 {
 instance_destroy()

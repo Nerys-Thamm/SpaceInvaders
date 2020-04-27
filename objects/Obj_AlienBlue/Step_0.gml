@@ -1,14 +1,18 @@
-/// @description Insert description here
-// You can write your code in this editor
-image_angle += 0.0001*delta_time//point_direction(x,y,global.PlayerX,global.PlayerY)
-AlienTimeSinceSpawn += delta_time
+//Executes every step
 
 
+//Makes the Alien sprite spin
+image_angle += 0.0001*delta_time
+
+
+//Sets the XY coordinates of the alien to a specified angle in a circular path with a specified radius
 	x := global.PlayerX + cos(AlienAngle)*AlienCurrentDistance
 	y := global.PlayerY + sin(AlienAngle)*AlienCurrentDistance
+	
+//Makes the alien move in a circle
 	AlienAngle += 0.0000005*delta_time*AlienSpeedMultiplier*AlienDirectionMultiplier
 
-
+//Makes alien gradually change direction on step when bool is enabled
 if(ChangingDirectionCCW)
 {
 	if (AlienDirectionMultiplier > -1)
@@ -34,6 +38,7 @@ if(ChangingDirectionCW)
 	}
 }
 
+//Makes alien gradually move down a row instead of teleporting
 if (AlienCurrentDistance > AlienDistance)
 	{
 		AlienCurrentDistance -= 0.00005 * delta_time
@@ -44,17 +49,22 @@ if (AlienCurrentDistance > AlienDistance)
 		
 	}
 
+//Checks if Descendthisstep is true, if so, make the alien descend one row
 if(global.DescendThisStep)
 {
 
 
 AlienCurrentRow -= 1
+
+//Alien Attacks the player
 if(AlienDistance <= 50)
 {
 	global.PlayerHealth -= 50
 	global.AlienCount -= 1
 	instance_destroy()
 }
+
+
 AlienDistance -= 50
 if(AlienSpeedMultiplier < 1)
 {AlienSpeedMultiplier -= 0.2}

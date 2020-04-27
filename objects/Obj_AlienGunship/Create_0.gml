@@ -1,13 +1,13 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Variables for determining alien position
 AlienAngle = 0
-AlienDistance = 500
+AlienDistance = 350
+AlienCurrentDistance = AlienDistance
+
+//Variables for determining alien movement
 AlienDescendChance = 500
 AlienSpeedMultiplier = 1
 AlienDirectionMultiplier = 1
-AlienAngleMultiplier = 0
 AlienCurrentRow = 5
-AlienTimeSinceSpawn = 0
-AlienCurrentDistance = AlienDistance
+
 ChangingDirectionCW = false
 ChangingDirectionCCW = false

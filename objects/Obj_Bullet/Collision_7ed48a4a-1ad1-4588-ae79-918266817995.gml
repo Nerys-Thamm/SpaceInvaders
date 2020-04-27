@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Destroy instance of bullet, Play Powerup get sound, Heal player, Destroy instance of healthpack
 instance_destroy()
 with(other)
 {

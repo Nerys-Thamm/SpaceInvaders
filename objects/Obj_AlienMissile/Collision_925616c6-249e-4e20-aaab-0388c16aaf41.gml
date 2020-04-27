@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+//If Deflected, Destroy missile and create explosion object, play explosion sound
 if(deflected)
 {
 	with(other)

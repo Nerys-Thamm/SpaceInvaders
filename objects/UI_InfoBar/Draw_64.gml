@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Draws InfoBar GUI to screen
 draw_set_halign(fa_left)
 draw_set_font(DefaultFont)
 draw_sprite(UI_Spr_Background,1,0,800)

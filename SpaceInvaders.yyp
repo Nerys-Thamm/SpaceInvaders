@@ -87,6 +87,14 @@
             }
         },
         {
+            "Key": "28377e63-b0b6-4896-92ab-d6dd65da502a",
+            "Value": {
+                "id": "6c04aed5-f829-40c4-bbb0-b24c9326c482",
+                "resourcePath": "sprites\\Spr_Alien_Special\\Spr_Alien_Special.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "28667c1a-918b-4663-a778-7c7f5ac6d80e",
             "Value": {
                 "id": "5fdb4e01-45d9-4aab-8481-224566d92b61",
@@ -124,6 +132,14 @@
                 "id": "5b367428-b061-4970-afd0-c5fe864fade0",
                 "resourcePath": "sprites\\Spr_AlienBlue\\Spr_AlienBlue.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "3a951ca3-3450-42ad-9578-c514f96c0b26",
+            "Value": {
+                "id": "ece12556-310b-4b4b-974b-3c27cb1d923a",
+                "resourcePath": "objects\\PlayerScoreController\\PlayerScoreController.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -359,6 +375,14 @@
             }
         },
         {
+            "Key": "b2038f7e-f875-4473-862b-d1973eb58501",
+            "Value": {
+                "id": "19845871-fe44-482e-a5a6-96c309bdce46",
+                "resourcePath": "objects\\UI_GameOver\\UI_GameOver.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b38e6e3e-6c81-4dbe-8e3e-5676e649c575",
             "Value": {
                 "id": "775c8553-068b-4fb0-b4f4-bbee7550c60e",
@@ -435,6 +459,14 @@
             "Value": {
                 "id": "1e8d8970-a1d5-4511-bf65-285f03a3851d",
                 "resourcePath": "objects\\Obj_ShootableButton\\Obj_ShootableButton.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d1db3ff9-fe13-4370-b7e5-1b321a8fba5d",
+            "Value": {
+                "id": "0c24cf01-653a-468f-bdc5-4c19952cb838",
+                "resourcePath": "objects\\Obj_Alien_Special\\Obj_Alien_Special.yy",
                 "resourceType": "GMObject"
             }
         },

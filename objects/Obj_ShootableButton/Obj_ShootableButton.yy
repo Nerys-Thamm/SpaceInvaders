@@ -4,16 +4,7 @@
     "mvc": "1.0",
     "name": "Obj_ShootableButton",
     "eventList": [
-        {
-            "id": "5b0a128d-86a9-4d97-8f9f-6a03e0edf35e",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "d5e573d2-997c-4746-8ba8-ed0f9b127268",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "d1c7fb39-20bd-4caa-b4a0-d40d42b1e58b"
-        }
+        
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -1,3 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Set movement speed of bullet
 speed = 6

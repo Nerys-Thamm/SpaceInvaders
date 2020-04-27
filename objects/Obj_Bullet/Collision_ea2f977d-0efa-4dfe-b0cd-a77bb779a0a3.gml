@@ -1,5 +1,5 @@
-/// @description Insert description here
-// You can write your code in this editor
+///Play alien hit sound, destroy instance of alien and bullet, increase player score
+
 instance_destroy()
 with(other)
 {

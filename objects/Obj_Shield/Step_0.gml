@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Make shield move towards back of player, stop shield from moving in front of the player
 BackOfShip = point_direction(x,y,mouse_x,mouse_y)+180
 
 if(angle_difference(BackOfShip, direction) >= 90)

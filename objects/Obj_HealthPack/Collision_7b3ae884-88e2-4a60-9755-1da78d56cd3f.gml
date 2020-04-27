@@ -1,8 +1,8 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Destroy instance of healthpack
 instance_destroy()
 with(other)
 {
+	//Heaal Player
 	global.AlienCount -= 1
 	global.PlayerHealth += 200
 }

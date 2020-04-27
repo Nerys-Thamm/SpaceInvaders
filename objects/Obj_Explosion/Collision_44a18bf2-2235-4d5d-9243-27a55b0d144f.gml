@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Destroys Alien, Increments score, decrements alien count
 with(other)
 {
 	global.AlienCount -= 1

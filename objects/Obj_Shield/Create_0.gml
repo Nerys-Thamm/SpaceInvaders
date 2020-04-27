@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Makes Shield coords the same as the players
 x = global.PlayerX
 y = global.PlayerY

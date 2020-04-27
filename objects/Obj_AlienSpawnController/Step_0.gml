@@ -1,12 +1,19 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Executes every step
+
+//Checks if all rows have been spawned for this level, if not spawns Alien, Blue Alien, or healthpack every 18 degrees
+//Alien gunships start spawning al level 2, Blue aliens spawn at level 4 and become more common every level
+//Healthpacks start spawning at level 3 and become less common with eaach level
 if(CurrentSpawnRow <= 4+global.GameLevel)
 {
 	if(CurrentSpawnAngle <= 378)
 	{
-		if(random_range(1,20) < 2 and global.GameLevel >= 2)
+		if(random_range(1,20) < 2+(CurrentSpawnRow-5) and global.GameLevel >= 2)
 		{
 			NewAlien = instance_create_depth(0,0,0,Obj_AlienGunship)
+		}
+		else if(random_range(1,500) < 2)
+		{
+			NewAlien = instance_create_depth(0,0,0,Obj_Alien_Special)
 		}
 		else if(random_range(1,30+global.GameLevel) < 2 and global.GameLevel >= 3)
 		{
@@ -39,6 +46,8 @@ if(CurrentSpawnRow <= 4+global.GameLevel)
 	}
 	
 }
+
+//When all aliens are destroyed increment level and restart spawning
 else if(global.AlienCount == 0)
 {
 	global.GameLevel += 1

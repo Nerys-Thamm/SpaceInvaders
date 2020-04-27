@@ -1,3 +1,2 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Destroy missile when it leaves the screen
 instance_destroy()

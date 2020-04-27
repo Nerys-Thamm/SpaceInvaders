@@ -1,3 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
-sprite_index = Spr_PlayerIdle
+//Runs when the Firing animation ends
+
+//Sets sprite back to idle sprite
+sprite_index = Spr_PlayerIdle;

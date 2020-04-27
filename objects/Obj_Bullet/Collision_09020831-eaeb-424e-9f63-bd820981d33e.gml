@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+//Increment player score, destroy bullet, Create explosion object at position of missile
 instance_destroy()
 with(other)
 {
