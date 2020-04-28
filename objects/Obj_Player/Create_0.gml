@@ -14,3 +14,5 @@ global.PlayerY = y;
 //Used to determine whether the player is dead
 dead = false
 
+global.PlayerScore = 0
+
